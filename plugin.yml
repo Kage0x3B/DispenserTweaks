@@ -1,0 +1,26 @@
+name: DispenserTweaker
+main: de.syscy.dispensertweaker.DispenserTweaker
+author: Kage0x3B
+version: 1.1
+commands:
+  dispensertweaker:
+    description: Main DispenserTweaker commands
+    aliases: [dt]
+permissions:
+  dispensertweaker.*:
+    children:
+      dispensertweaker.reset: true
+      dispensertweaker.velocityMultiplier: true
+      dispensertweaker.tntFuseTicks: true
+      dispensertweaker.explosionStrength: true
+      dispensertweaker.fieryExplosions: true
+  dispensertweaker.reset:
+    default: op
+  dispensertweaker.velocityMultiplier:
+    default: op
+  dispensertweaker.tntFuseTicks:
+    default: op
+  dispensertweaker.explosionStrength:
+    default: op
+  dispensertweaker.fieryExplosions:
+    default: op
